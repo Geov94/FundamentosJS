@@ -26,37 +26,20 @@ var julian = {
 }
 
 
-function imprimirProfesiones (persona){
-    console.log(`${persona.nombre} es :`)
-    if (persona.ingeniero ){
-    console.log('Ingeniero')
-    } 
-    if (persona.Programador ){
-        console.log('Programador')
-    } 
-    if (persona.futbolista ){
-        console.log('Futbolista')
-    } 
-    if (persona.helpDesk ){
-    console.log('Soporte HelpDesk')
-    }    
-    if (persona.estudiante ){
-        console.log('Estudiante')
-    }  
-    if (persona.coches ){
-        console.log('Amante de los coches')
-    }  
-        
-
-}
-
+const MAYORIA_DE_EDAD = 18;
 
 function imprimirMayoriaEdad (persona){
-    if(persona.edad >17) {
+    if(esMayorDeEdad(persona)) {
         console.log(`${persona.nombre} es  Mayor de edad`)
     } else {
     console.log(`${persona.nombre} es Menor de edad`)
     }
 
+
+}
+
+function esMayorDeEdad(persona){
+
+  return persona.edad >= MAYORIA_DE_EDAD;
 
 }
