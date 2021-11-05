@@ -40,13 +40,13 @@ body {
 
 .blue{
     background: #162BEE ;
-    border-color: white;
+    
 
 }
 
 .blue.light{
-    background:#5689F4 ;
-    border-color: white;
+    background:lightskyblue ;
+    
 }
 
 .yellow{
@@ -54,7 +54,7 @@ body {
 }
 
 .yellow.light{
-    background: #F6F700;
+    background: lightgoldenrodyellow;
 }
 
 .green{
@@ -63,7 +63,7 @@ body {
 }
 
 .green.light{
-    background:#1ee72f ;
+    background: lightgreen ;
 }
 
 .red{
@@ -71,7 +71,7 @@ body {
 }
 
 .red.light{
-    background: #ee697d;
+    background: lightcoral;
 }
 
 .btn-start{
